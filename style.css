@@ -1,8 +1,14 @@
+.main{
+    padding-top: 10rem;
+}
+
 body{
-    font-family: "Arial Black";
     margin:0;
     font-size:1.0rem;
-    line-height:1.4em;
+    line-height:1.6em;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
 }
 p{
     margin-bottom:1.5em;
@@ -10,7 +16,7 @@ p{
 
 h1{
     font-size:2rem;
-    line-height:1.3em;
+    line-height:1.5em;
 }
 
 .container{
@@ -23,6 +29,13 @@ h1{
     background:tomato;
     color:white;
     padding:2rem 0;
+    font-size: 1.5em;
+    font-family: "Arial Black";
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
  .header a{
@@ -34,21 +47,87 @@ h1{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    flex-wrap: wrap;
+}
+.menu-icon {
+    display: none;
 }
 
+
     .navigation ul{
-    margin: 0;
-    padding: 0;
     list-style: none;
     }
          .navigation ul li {
              display: inline-block;
          }
-            navigation ul li a{
+            navigation ul li a {
                  display: block;
-                 padding: 0.5rem 1rem;
+                 padding: 1rem 1rem;
+                transition: all 0.4s linear;
+                border-radius: 5px;
             }
                 .navigation ul li a:hover{
                     background: #ccc;
                 }
 
+ .logo{
+     display: inline-block;
+     vertical-align: middle;
+     width: 120px;
+ }
+ .logo img{
+     display: block;
+     width: 100%;
+     height: auto;
+ }
+.logo-footer{
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+}
+.logo-footer img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.footer{
+    background: dimgray;
+    font-family: Arial;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*@media only screen and (max-width: 767px){  //intento de aplicacion de menú desplegable
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+    .navigation {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .navigation ul {
+        display: none;
+    }
+    .navigation ul.show {
+        display: block;
+    }
+    .navigation ul li {
+        display: block;
+    }
+    navigation ul li a{
+        display: block;
+        padding: 1rem 0;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    .navigation ul li a:hover{
+        background: #ccc;
+    }
+}*/
