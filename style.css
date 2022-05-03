@@ -101,8 +101,7 @@ h1{
     width: 100%;
 }
 
-/*@media only screen and (max-width: 767px){  //intento de aplicacion de menú desplegable
-
+/*@media only screen and (max-width: 767px){
     .menu-icon {
         display: block;
         cursor: pointer;
