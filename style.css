@@ -28,7 +28,7 @@ h1{
 .header {
     background: #c31e14;
     color:white;
-    padding: 1rem 0;
+    padding: 1.2rem;
     font-size: 1.5em;
     font-family: "Arial Black";
 
@@ -122,7 +122,6 @@ h1{
 }
 .title-cards{
     width: 100%;
-    max-width: 1080px;
     margin: auto;
     padding: 20px;
     margin-top: 20px;
@@ -132,6 +131,7 @@ h1{
 
 .card{
     width: 100%;
+    max-width: 300px;
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
@@ -149,6 +149,7 @@ h1{
     margin-top: 1em;
     text-align: center;
     width: 100%;
+    max-width: 270px;
     height: 220px;
 }
 .card .contenido-card{
