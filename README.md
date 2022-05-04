@@ -11,7 +11,7 @@
     Github
     Google Imagenes
 ### Sobre el Repositorio
-Link del sitio web 
+Link del sitio web: [Pokedex](https://ucc-labcompu2.github.io/Proyecto-Escudero-Sabor/)
     
 
 
