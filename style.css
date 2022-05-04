@@ -4,14 +4,15 @@
 
 body{
     margin:0;
-    font-size:1.0rem;
+    font-size:1.2rem;
     line-height:1.6em;
     position: relative;
-    padding-bottom: 3em;
+    padding-bottom:12em;
     min-height: 100vh;
+    font-family: "Calibri Light";
 }
 p{
-    margin-bottom:1.5em;
+    margin-bottom:1.6em;
 }
 
 h1{
