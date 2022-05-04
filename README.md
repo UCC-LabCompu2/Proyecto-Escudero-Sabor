@@ -1,5 +1,19 @@
 # proyecto2022
-Estructura de Proyecto Lab de Compu II - 2022
+
+### Grupo
+     Escudero y Sabor
+### Idea del proyecto
+    Realizar una Pokedex a corta escala con toda la informacion detallada del pokemon, incluyendo sus estadisticas variables.
+### Tecnologias usadas
+    HTML 5
+    CSS
+    Git
+    Github
+    Google Imagenes
+### Sobre el Repositorio
+Link del sitio web 
+    
+
 
 ## Requisitos del Primer Parcial
 
