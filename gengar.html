@@ -8,6 +8,10 @@
     <meta content="Pokedex" name="descripcion">
     <meta content="pokemon, pokedex, poke" name="palabras-principales">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="Favicon/favicon-16x16.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -27,16 +31,43 @@
     </header>
 
 
-    <div class="container-card">
+    <div class="grid">
 
-        <div class="card">
-            <figure>
-                <img src="Imagenes/Imagenes%20pokemons/Gengar.png" alt="gengar">
-            </figure>
-            <div class="contenido-card">
-                <h3>N.094 Gengar</h3>
-                <p>Tipo: Fantasma / Veneno</p>
+        <div class="tarjeta">
+            <div class="container-card">
+                <div class="card">
+                    <figure>
+                        <img src="Imagenes/Imagenes%20pokemons/Gengar.png" alt="gengar">
+                    </figure>
+                    <div class="contenido-card">
+                        <h3>N.094 Gengar</h3>
+                        <p>Tipo: Fantasma / Veneno</p>
+                    </div>
+                </div>
             </div>
+        </div>
+
+        <div class="info">
+            <p>Las noches de luna llena, a este Pokémon le gusta imitar las sombras de la gente y burlarse de sus miedos.</p>
+        </div>
+
+        <div class="descripcion">
+            Altura: 1,5 m
+            Peso: 40,5 kg
+            Sexo: Macho y Hembra
+        </div>
+
+        <div class="lienzo">
+            <form action="">
+                <label for="nivel">Ingrese nivel: </label>
+                <input type="text" name="nivel" id="nivel">
+            </form>
+            <form action="">
+                <label for="iv">Ingrese IV's: </label>
+                <input type="text" name="iv" id="iv">
+            </form>
+            <canvas id="grafic"></canvas>
+
         </div>
     </div>
 

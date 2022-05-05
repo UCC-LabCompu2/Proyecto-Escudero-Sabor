@@ -1,15 +1,15 @@
+
 .main{
     padding-top: 12rem;
 }
 
 body{
-    margin:0;
     font-size:1.2rem;
     line-height:1.6em;
-    position: relative;
-    padding-bottom:12em;
-    min-height: 100vh;
+    padding-bottom:10em;
+    min-height: 100%;
     font-family: "Calibri Light";
+    position: relative;
 }
 p{
     margin-bottom:1.6em;
@@ -31,7 +31,7 @@ h1{
     color:white;
     padding: 1.2rem;
     font-size: 1.5em;
-    font-family: "Arial Black";
+    font-family: 'Koulen', cursive;
 
     position: fixed;
     left: 0;
@@ -101,13 +101,13 @@ h1{
     position: absolute;
     bottom: 0;
     width: 100%;
+    font-size: 1rem;
 }
 /*Fin-Footer*/
 
 /*inicio-Cards*/
 *{
     padding: 0;
-    margin: 0;
     box-sizing: border-box;
     margin: auto;
 }
@@ -143,8 +143,6 @@ h1{
 }
 .card:hover{
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transform: translateY(-3%);
-
 }
 .card img{
     margin-top: 1em;
@@ -192,3 +190,115 @@ h1{
 }
 
 /*Fin-Cards*/
+
+/*inicio-CSS Grid*/
+html{
+    height: 100%;
+}
+.grid{
+    display: grid;
+    gap: 30px;
+    grid-template-areas:
+    "tarjeta"
+"info"
+"descripcion"
+"canvas";
+}
+
+.info{
+    width: 30%;
+    text-align: center;
+    border-radius: 4px;
+    background: #cccccc;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+
+}
+.descripcion{
+    width: 30%;
+    text-align: center;
+    border-radius: 4px;
+    background: #cccccc;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+}
+
+.lienzo{
+    text-align: center;
+    border-radius: 4px;
+    background: #cccccc;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+    width: 35%;
+
+}
+
+#grafic{
+    background: white;
+    height: 50%;
+    width: 96%;
+}
+
+/*Fin-CSS Grid*/
+
+    /*inicio-Barra de busqueda*/
+
+
+    .barra {
+        position: absolute;
+        left: 48%;
+        top: 21%;
+        transform: translate(-50%,-50%);
+        padding: 10px;
+    }
+
+   .barra input {
+        outline: none;
+        box-sizing: border-box;
+        height: 60px;
+        width: 0px;
+        padding: 0 20px;
+        color: #000;
+        border-radius: 50px;
+        font-size: 20px;
+        border: 1px solid #c31e14;
+        transition: all .7s ease;
+    }
+
+    ::placeholder {
+        color: grey;
+    }
+
+    .btn {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 80px;
+        height: 80px;
+        background: #c31e14;
+        line-height: 80px;
+        border-radius: 50%;
+        text-align: center;
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    .btn i {
+        font-size: 25px;
+        color:  #c31e14;
+        line-height: 80px;
+        transition: all .7s ease;
+    }
+
+    .barra:hover input {
+        width: 350px;
+    }
+
+    .barra:hover i{
+        transform: rotate(-360deg);
+    }
+
+    .btn:hover{
+        background: #c31e14;
+    }
+
+
+
+/*Fin-Barra de busqueda*/
